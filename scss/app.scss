@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/remixicon/fonts/remixicon.css";
+
+$font-family-base: 'Inter', sans-serif;
+$font-size-base: 0.9rem;
+$primary: #0F6FEC;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #0F6FEC;
+}
+.profile{
+  width: 35px;
+}
+.nav-link{
+  font-weight: bold;
+}
+.nav-link:hover{
+  color: $primary;
+}
+
+.bi-cloud-download-fill{
+  color: #0CBC87;
+}
+
+// main
+.cover{
+  height: 50px;
+  background-image: url('images/coverimg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  padding-top: -80px;
+}
+
+.profile-detail{
+  height: 58px;
+}
+
+.pro-icon{
+  width: 19px;
+}
