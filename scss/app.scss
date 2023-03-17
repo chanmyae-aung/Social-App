@@ -28,22 +28,24 @@ $primary: #0F6FEC;
   color: #0CBC87;
 }
 
-// main
+// main //
+
 .cover{
   height: 50px;
-  background-image: url('images/coverimg.jpg');
+  background-image: url('../images/coverimg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card{
-  padding-top: -80px;
-}
 
 .profile-detail{
   height: 58px;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+  outline: 3px solid white;
 }
 
 .pro-icon{
   width: 19px;
 }
+
