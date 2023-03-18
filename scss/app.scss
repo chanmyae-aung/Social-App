@@ -7,8 +7,10 @@
 $font-family-base: 'Inter', sans-serif;
 $font-size-base: 0.9rem;
 $primary: #0F6FEC;
+// $utilities-text-colors: #676A79;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
 
 .form-control:focus {
   box-shadow: none;
