@@ -30,7 +30,7 @@ $primary: #0F6FEC;
   color: #0CBC87;
 }
 
-// main //
+// Profile //
 
 .cover{
   height: 50px;
@@ -51,3 +51,40 @@ $primary: #0F6FEC;
   width: 19px;
 }
 
+
+// News Feed //
+
+.myday{
+  height: 150px;
+  width: 120px;
+}
+
+.story{
+  border: 1px dashed gray;
+}
+.story-img{
+  height: 150px;
+  width: 120px;
+}
+
+
+//
+
+.friends-img{
+  width: 48px;
+}
+.addbtn{
+  color: #0F6FEC;
+  padding: 0.8rem;
+  background-color: #0f6fec18;
+}
+.exist-story{
+  border: 2px solid white;
+  outline: 2px solid #0F6FEC;
+}
+
+.view-more{
+  background-color: #0f6fec18;
+  border: none;
+  color: #0F6FEC;
+}
