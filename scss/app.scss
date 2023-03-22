@@ -7,6 +7,7 @@
 $font-family-base: 'Inter', sans-serif;
 $font-size-base: 0.9rem;
 $primary: #0F6FEC;
+$secondary: #EEF0F2;
 // $utilities-text-colors: #676A79;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -18,6 +19,7 @@ $primary: #0F6FEC;
 }
 .profile{
   width: 35px;
+  height: 35px;
 }
 .nav-link{
   font-weight: bold;
