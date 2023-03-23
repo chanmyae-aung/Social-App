@@ -79,6 +79,7 @@ $secondary: #EEF0F2;
 
 .friends-img{
   width: 48px;
+  height: 48px;
 }
 .addbtn{
   color: #0F6FEC;
@@ -93,4 +94,7 @@ $secondary: #EEF0F2;
   background-color: #0f6fec18;
   border: none;
   color: #0F6FEC;
+}
+.gallery{
+  height: fit-content;
 }
